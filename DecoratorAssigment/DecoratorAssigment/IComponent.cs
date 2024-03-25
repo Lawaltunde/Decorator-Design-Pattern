@@ -8,10 +8,6 @@ namespace DecoratorAssigment
 {
     public interface IComponent<T>
     {
-        protected T textToGet { get; set; }
-        T GetText()
-        {
-            return textToGet;
-        }
+        T GetText();
     }
 }

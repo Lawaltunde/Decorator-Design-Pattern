@@ -10,7 +10,7 @@ namespace DecoratorAssigment
     {
         public string GetText()
         {
-            return "String is returned as instructed by professor";
+            return "String is returned as professor instructed";
         }
     }
 }

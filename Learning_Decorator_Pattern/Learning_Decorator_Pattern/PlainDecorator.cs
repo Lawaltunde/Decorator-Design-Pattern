@@ -11,7 +11,7 @@ namespace Learning_Decorator_Pattern
         public PlainDecorator(IComponent<string> component) : base(component) { }
         public override string GetText()
         {
-            return String.Concat("Here is the Prefix", component.GetText());
+            return String.Concat("Here is the Prefix " , component.GetText());
         }
     }
 }

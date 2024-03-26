@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Learning_Decorator_Pattern
 {
-    abstract class Decorator<T>:IComponent<T>
+    public abstract class Decorator<T> : IComponent<T>
     {
         protected IComponent<T> component;
 
@@ -15,7 +15,7 @@ namespace Learning_Decorator_Pattern
             component = _component;
         }
 
-        public T GetText()
+        public virtual T GetText()
         {
             return component.GetText();
         }

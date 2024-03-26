@@ -14,7 +14,7 @@ namespace DecoratorAssigment
 
         public override string GetText()
         {
-            return string.Concat("The prefix", base.GetText());
+            return string.Concat("The is the prefix ", base.GetText());
         }
     }
 }

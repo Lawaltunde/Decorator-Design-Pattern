@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Learning_Decorator_Pattern
 {
-    public class PlainDecorator : Decorator<string>
+    public class UpperCaseDecorator : Decorator<string>
     {
-        public PlainDecorator(IComponent<string> component) : base(component) { }
+        public UpperCaseDecorator(IComponent<string> component) : base(component) { }
+
         public override string GetText()
         {
-            return String.Concat("Here is the Prefix", component.GetText());
+            return  component.GetText().ToUpper();
         }
     }
 }

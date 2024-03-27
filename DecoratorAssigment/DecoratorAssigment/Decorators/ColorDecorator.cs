@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorAssigment
+namespace DecoratorAssigment.Decorators
 {
-    public class ColorDecorator:Decorator<string>
+    public class ColorDecorator : Decorator<string>
     {
-        public ColorDecorator(IComponent<string> _component):base(_component) { }
+        public ColorDecorator(IComponent<string> _component) : base(_component) { }
 
         public override string GetText()
         {

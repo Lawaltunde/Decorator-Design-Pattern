@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorAssigment
+namespace DecoratorAssigment.Decorators
 {
-    public class ConcreteComponent: IComponent<string>
+    public class ConcreteComponent : IComponent<string>
     {
         public string GetText()
         {

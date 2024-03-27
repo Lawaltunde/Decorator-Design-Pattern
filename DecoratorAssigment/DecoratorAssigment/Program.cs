@@ -1,5 +1,6 @@
 ﻿
 using DecoratorAssigment;
+using DecoratorAssigment.Decorators;
 
 //instance of ConcreteComponent
 IComponent<string> concreteComponent = new ConcreteComponent();

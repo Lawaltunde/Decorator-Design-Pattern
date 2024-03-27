@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorAssigment
+namespace DecoratorAssigment.Decorators
 {
-    public class PlainDecorator: Decorator<string>
+    public class PlainDecorator : Decorator<string>
     {
         public PlainDecorator(IComponent<string> _component) : base(_component)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorAssigment
+namespace DecoratorAssigment.Decorators
 {
     public interface IComponent<T>
     {

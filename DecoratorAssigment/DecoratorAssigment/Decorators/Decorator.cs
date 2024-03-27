@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorAssigment
+namespace DecoratorAssigment.Decorators
 {
     public abstract class Decorator<T> : IComponent<T>
     {
-       protected IComponent<T> component;
+        protected IComponent<T> component;
 
         public Decorator(IComponent<T> _component)
         {
